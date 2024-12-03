@@ -1,0 +1,54 @@
+{
+    "start": {
+        "type": "start",
+        "position": [3, 3],
+        "height": 3,
+        "width": 3,
+        "image": "assets/welcome.jpg"
+    },
+    "goal": {
+        "type": "goal",
+        "position": [45, 45],
+        "height": 3,
+        "width": 3,
+        "image": "assets/picnic.jpeg"
+    },
+    "obstacles": [
+        {"type": "tree", "position": [3, 3], "height": 3, "width": 3, "image": "assets/tree.jpeg"},
+        {"type": "bench", "position": [6, 38], "height": 3, "width": 3, "image": "assets/bench.jpeg"},
+        {"type": "bin", "position": [12, 6], "height": 3, "width": 3, "image": "assets/bin.webp"},
+        {"type": "tree", "position": [12, 21], "height": 3, "width": 3, "image": "assets/tree.jpeg"},
+        {"type": "bench", "position": [15, 42], "height": 3, "width": 3, "image": "assets/bench.jpeg"},
+        {"type": "bin", "position": [21, 15], "height": 3, "width": 3, "image": "assets/bin.webp"},
+        {"type": "tree", "position": [24, 6], "height": 3, "width": 3, "image": "assets/tree.jpeg"},
+        {"type": "bench", "position": [27, 40], "height": 3, "width": 3, "image": "assets/bench.jpeg"},
+        {"type": "bin", "position": [30, 30], "height": 3, "width": 3, "image": "assets/bin.webp"},
+        {"type": "tree", "position": [36, 6], "height": 3, "width": 3, "image": "assets/tree.jpeg"},
+        {"type": "bench", "position": [39, 36], "height": 3, "width": 3, "image": "assets/bench.jpeg"},
+        {"type": "bin", "position": [42, 39], "height": 3, "width": 3, "image": "assets/bin.webp"},
+        {"type": "tree", "position": [6, 36], "height": 3, "width": 3, "image": "assets/tree.jpeg"},
+        {"type": "bench", "position": [12, 27], "height": 3, "width": 3, "image": "assets/bench.jpeg"},
+        {"type": "bin", "position": [9, 39], "height": 3, "width": 3, "image": "assets/bin.webp"},
+        {"type": "block", "position": [18, 18], "height": 3, "width": 3, "image": "assets/block.jpeg"},
+        {"type": "tree", "position": [21, 36], "height": 3, "width": 3, "image": "assets/tree.jpeg"},
+        {"type": "bench", "position": [24, 43], "height": 3, "width": 3, "image": "assets/bench.jpeg"},
+        {"type": "bin", "position": [27, 9], "height": 3, "width": 3, "image": "assets/bin.webp"},
+        {"type": "tree", "position": [33, 21], "height": 3, "width": 3, "image": "assets/tree.jpeg"},
+        {"type": "bench", "position": [39, 24], "height": 3, "width": 3, "image": "assets/bench.jpeg"},
+        {"type": "bin", "position": [42, 6], "height": 3, "width": 3, "image": "assets/bin.webp"},
+        {"type": "block", "position": [42, 12], "height": 3, "width": 3, "image": "assets/block.jpeg"},
+        {"type": "tree", "position": [9, 9], "height": 3, "width": 3, "image": "assets/tree.jpeg"},
+        {"type": "bench", "position": [12, 37], "height": 3, "width": 3, "image": "assets/bench.jpeg"},
+        {"type": "bin", "position": [18, 12], "height": 3, "width": 3, "image": "assets/bin.webp"},
+        {"type": "block", "position": [21, 21], "height": 3, "width": 3, "image": "assets/block.jpeg"},
+        {"type": "tree", "position": [30, 12], "height": 3, "width": 3, "image": "assets/tree.jpeg"},
+        {"type": "bench", "position": [36, 35], "height": 3, "width": 3, "image": "assets/bench.jpeg"},
+        {"type": "bin", "position": [39, 39], "height": 3, "width": 3, "image": "assets/bin.webp"}
+    ],
+    "fence": [
+        {"type": "fence", "position": [0, 0], "width": 50, "height": 3, "image": "assets/fence.jpeg"},  
+        {"type": "fence", "position": [0, 50], "width": 51, "height": 3, "image": "assets/fence.jpeg"}, 
+        {"type": "fence", "position": [0, 0], "width": 5, "height": 50, "image": "assets/fence.jpeg"},  
+        {"type": "fence", "position": [50, 0], "width": 5, "height": 50, "image": "assets/fence.jpeg"}  
+    ]
+}
